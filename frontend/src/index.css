@@ -1,0 +1,10 @@
+/* css-lint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* css-lint-enable */
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}

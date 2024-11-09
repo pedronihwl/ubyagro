@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageVersion Include="DotNetEnv" Version="3.1.1" />
+        <PackageVersion Include="Microsoft.Azure.Cosmos" Version="3.45.0" />
+        <PackageVersion Include="RestSharp" Version="112.1.0" />
+        <PackageVersion Include="OpenAI" Version="2.0.0" />
+    </ItemGroup>
+</Project>

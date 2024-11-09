@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{5839D962-B2F1-419B-A430-FF9FA5B8F3EF}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "backend\Main.csproj", "{175D6219-BAFD-48C3-B3CB-CCCB6D6DCECC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{175D6219-BAFD-48C3-B3CB-CCCB6D6DCECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175D6219-BAFD-48C3-B3CB-CCCB6D6DCECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175D6219-BAFD-48C3-B3CB-CCCB6D6DCECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175D6219-BAFD-48C3-B3CB-CCCB6D6DCECC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
