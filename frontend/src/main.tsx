@@ -1,10 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import './index.css'
+import "./index.css";
+import SideBar from "./components/SideBar";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <h1>Hello World</h1>
-  </StrictMode>,
-)
+    <div className="bg-[#EFEFEF]">
+      <SideBar />
+    </div>
+  </StrictMode>
+);
